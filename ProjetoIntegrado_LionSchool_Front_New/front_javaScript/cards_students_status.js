@@ -74,7 +74,6 @@ const createCards = ($date, $statusStudent) => {
     })
 
     return div
-
 }
 
 const loadCardsStudents = async ($typeCourse) => {
