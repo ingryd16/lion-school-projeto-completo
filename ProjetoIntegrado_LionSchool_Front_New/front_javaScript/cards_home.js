@@ -1,5 +1,4 @@
 'use strict'
-
 import { getCardsCourses } from "../endPoints/cards_courses_home.js"
 
 const newSection = async (click) => {
@@ -9,7 +8,6 @@ const newSection = async (click) => {
 }
 
 const createButtons = ($buttons) => {
-
     const div = document.createElement('div')
     div.classList.add('button')
 
