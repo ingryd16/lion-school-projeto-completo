@@ -1,0 +1,44 @@
+main {
+    height: 75vh;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .aluno-card{
+      background-color: white;
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nome-aluno{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aluno-nome{
+    font-size: 18px;
+    color: #3347B0;
+    font-weight: 600;
+  }
+  
+  .grafico-card{
+      background-color: white;
+      height: 500px;
+      width: 500px;
+      box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  }
